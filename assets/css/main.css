@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -111,8 +112,19 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		/* border-bottom: solid 3px #ffffff; */
-		color: #FFD700;
+		color: Gold;
 		text-decoration: none;
+		/* background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent; */
+	}
+
+	a:hover {   
+		/* border-bottom-color: #ffffff; */
+		/* color: Gold !important; */
+		/* text-decoration: underline; */
+		/* text-decoration-color: Gold; */
+		/* text-transform: uppercase; */
 	}
 
 	a.special:not(.button) {
@@ -138,6 +150,7 @@ input, select, textarea {
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
 			font-weight: 900;
+			vertical-align: middle;
 		}
 
 		a.special:not(.button):before {
@@ -146,35 +159,29 @@ input, select, textarea {
 			-ms-transition: background-color 0.2s ease-in-out;
 			transition: background-color 0.2s ease-in-out;
 			border-radius: 100%;
-			border: solid 2px #FFD700;
+			border: solid 2px Gold;
 			content: '\f105';
 			display: inline-block;
 			font-size: 1.25em;
-			height: 2em;
-			line-height: 1.9em;
+			height: 1.5em;
+			line-height: 1.35em;
 			margin-right: 0.85em;
 			text-align: center;
 			text-indent: 0.15em;
 			vertical-align: middle;
-			width: 2em;
+			width: 1.5em;
 		}
 
 		a.special:not(.button):hover:before {
 			background-color: rgba(249, 3, 3, 0.025);
-			/* text-decoration: underline; */
+			opacity: 0.8;
 		}
 
 		a.special:not(.button):active:before {
 			background-color: rgba(255, 255, 255, 0.075);
 		}
 
-		/* a:hover {   */
-			/* border-bottom-color: #ffffff; */
-			/* color: #FFD700 !important; */
-			/* text-decoration: underline; */
-			/* text-decoration-color: #FFD700; */
-			/* text-transform: uppercase; */
-		 /* } */
+
 
 	strong, b {
 		color: #777;
@@ -191,7 +198,10 @@ input, select, textarea {
 
 	p a {
 		border-bottom-color: #ffffff;
-		color: #FFD700
+		/* color: Gold; */
+		background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 
 	p a:hover{
@@ -200,18 +210,22 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #FFD700;
+		/* color: Gold ; */
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
+		background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 			border: 0;
-			color: #FFD700;
+			color: Gold;
 			/* text-decoration: underline; */
-			text-decoration-color: #FFD700;
+			text-decoration-color: Gold;
 			/* text-transform: uppercase; */
+			
 		}
 
 	h2 {
@@ -231,7 +245,7 @@ input, select, textarea {
 
 	/* h4:hover {
 		 text-decoration: overline; 
-		 text-decoration-color: #FFD700; 
+		 text-decoration-color: Gold; 
 		text-transform: uppercase;
 		opacity: 0.7;
 	} */
@@ -1860,8 +1874,11 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #FFD700;
+		/* color: Gold; */
 		font-size: 2em;
+		background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 
 		header.major h2 + p {
@@ -1924,7 +1941,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #FFD700;
+			border-color: Gold;
 		}
 
 	select {
@@ -2029,7 +2046,7 @@ input, select, textarea {
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			border-color: #FFD700;
+			border-color: Gold;
 		}
 
 	input[type="checkbox"] + label:before {
@@ -2502,7 +2519,7 @@ input, select, textarea {
 			ul.feature-icons li:before {
 				background: #171717;
 				border-radius: 100%;
-				color: #d4ac26;
+				/* color: Gold; */
 				display: transparent;
 				height: 2.5em;
 				left: 0;
@@ -2511,6 +2528,9 @@ input, select, textarea {
 				text-align: center;
 				top: 0;
 				width: 2.5em;
+				background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
 			}
 
 /* Icons */
@@ -2603,7 +2623,7 @@ input, select, textarea {
 			}
 
 /* Button */
-
+/*
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
@@ -2616,34 +2636,65 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #FFD700;
-		border-radius: 25px;
+		border-radius: 20px;
 		border: 0;
-		color: #000000 !important;
+		color: #171717 !important;
 		cursor: pointer;
 		display: inline-block;
+		font-size: 18px;
 		font-weight: 700;
-		height: 2.75em;
+		height: 3em;
+		width: 200px;
+		margin: 50px 0 0 40%;
 		line-height: 2.75em;
+		letter-spacing: 0.1em;
 		padding: 0 1.5em;
 		text-align: center;
 		text-decoration: none;
+		text-transform: uppercase;
 		white-space: nowrap;
+		background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+		box-shadow: 10px 10px rgb(43, 42, 42);
 	}
+	
+	.button span {
+		cursor: pointer;
+		display: inline-block;
+		position: relative;
+		transition: 0.5s;
+	  }
+	  
+	  .button span:after {
+		content: '\00bb';
+		position: absolute;
+		opacity: 0;
+		top: 0;
+		right: -20px;
+		transition: 0.5s;
+	  }
+	  
+	  .button:hover span {
+		padding-right: 25px;
+	  }
+	  
+	  .button:hover span:after {
+		opacity: 1;
+		right: 0;
+	  }
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #373636;
-			color: #ffffff !important;
+			opacity: 0.8;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #000000;
+			box-shadow: 0 0;
+			transform: translateY(10px);
 		}
 
 		input[type="submit"].icon,
@@ -2716,7 +2767,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #FFD700;
+			background-color: Gold;
 			color: #000000 !important;
 		}
 
@@ -2748,7 +2799,111 @@ input, select, textarea {
 			cursor: default;
 			opacity: 0.25;
 		}
+*/
 
+button {
+	background: transparent;
+	position: relative;
+	border-radius: 20px;
+	border: 0;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 18px;
+	font-weight: 700;
+	height: 3em;
+	margin: 40px 0 0 40%;
+	line-height: 2.75em;
+	letter-spacing: 0.1em;
+	padding: 0;
+	/* text-align: center; */
+	text-decoration: none;
+	text-transform: uppercase;
+   }
+   
+   button.learn-more {
+	width: 12rem;
+	height: auto;
+   }
+   
+   button.learn-more .circle {
+	transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+	position: relative;
+	display: block;
+	margin: 0;
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 1.625rem;
+	background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+   }
+   
+   button.learn-more .circle .icon {
+	transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	background: #fff;
+   }
+   
+   button.learn-more .circle .icon.arrow {
+	transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+	left: 0.4rem;
+	width: 1.125rem;
+	height: 0.125rem;
+	background: none;
+   }
+   
+   button.learn-more .circle .icon.arrow::before {
+	position: absolute;
+	content: "";
+	top: -0.25rem;
+	right: 0.0625rem;
+	width: 0.625rem;
+	height: 0.625rem;
+	border-top: 0.125rem solid #fff;
+	border-right: 0.125rem solid #fff;
+	transform: rotate(45deg);
+   }
+   
+   button.learn-more .button-text {
+	transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	padding: 0.75rem 0;
+	margin: -5px 8% 0 1.85rem;
+	/* color: #ffffff; */
+	font-size: 13pt;
+	font-weight: 700;
+	line-height: 1.6;
+	text-align: center;
+	text-transform: uppercase;
+	background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+   }
+   
+   button:hover .circle {
+	width: 100%;
+   }
+   
+   button:hover .circle .icon.arrow {
+	background: rgb(255, 255, 255);
+	transform: translate(1rem, 0);
+   }
+   
+   button:hover .button-text {
+	/* color: #fff; */
+	background: -webkit-linear-gradient(top, #000, rgb(0, 0, 0));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+   }
+
+   button:active {
+	transform: translateY(5px);
+   }
 /* Features */
 
 	.features article {
@@ -2802,6 +2957,7 @@ input, select, textarea {
 		/* background: conic-gradient(from 120deg at 50% 30%, #171433, #1f1333, #301131, #410d29, #4a0e20, #4d101c); */
 		/* background: #28282B; */
 		background: radial-gradient(circle at 50% 50%, #7a6c51, #60533e, #32281c, #1c1307);
+		
 		/* background-image: linear-gradient(315deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)); */
 		color: #ffffff;
 		height: 100%;
@@ -2814,11 +2970,17 @@ input, select, textarea {
 	}
 
 		#header h1, #header h2, #header h3, #header h4, #header h5, #header h6 {
-			color: #FFD700;
+			/* color: Gold; */
+			background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
 		}
 
 			#header h1 a, #header h2 a, #header h3 a, #header h4 a, #header h5 a, #header h6 a {
-				color: #FFD700;
+				/* color: Gold; */
+				background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
 			}
 
 		#header header p {
@@ -2830,13 +2992,16 @@ input, select, textarea {
 		}
 
 		#header a {
-			color: #FFD700;
+			color: Gold;
+			/* background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent; */
 		}
 
 			#header a:hover {
 				text-transform: uppercase;
 				opacity: 0.7;
-				/* color: #FFD700 !important; */
+				/* color: Gold !important; */
 			}
 
 		#header > header {
@@ -2859,9 +3024,12 @@ input, select, textarea {
 			}
 
 			#header > header p {
-				color: #FFD700;
+				/* color: Gold; */
 				font-style: italic;
 				margin: 1em 0 0 0;
+				background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+				-webkit-background-clip: text;
+				-webkit-text-fill-color: transparent;
 			}
 
 		#header > footer {
@@ -2873,18 +3041,18 @@ input, select, textarea {
 			left: 0;
 			padding: 1em;
 			width: 100%;
-			color: #FFD700;
-			/* font-style: italic; */
 		}
 
 		#header > footer p{
-			margin: 1em 0 0 0;
-			color: #FFD700;
+			margin: 0 0 0 0;
+			/* color: Gold; */
+			background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
 		}
 
 		#header > footer p a{
-			margin: 1em 0 0 0;
-			color: #FFD700;
+			margin: 0 0 0 0;
 		}
 
 			#header > footer .icons {
@@ -2892,7 +3060,10 @@ input, select, textarea {
 			}
 
 				#header > footer .icons li a {
-					color: #FFD700;
+					/* color: Gold; */
+					background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+					-webkit-background-clip: text;
+					-webkit-text-fill-color: transparent;
 				}
 
 		#header > nav {
@@ -2900,6 +3071,7 @@ input, select, textarea {
 			-webkit-flex-grow: 1;
 			-ms-flex-grow: 1;
 			flex-grow: 1;
+			margin-top: -30px;
 		}
 
 			#header > nav ul {
@@ -2920,15 +3092,20 @@ input, select, textarea {
 						-ms-transition: none;
 						transition: none;
 						border: 0;
-						color: #FFD700 !important;
+						margin-top: 0px;
+						/* color: Gold !important; */
 						display: block;
 						padding: 0.85em 0;
 						text-decoration: none;
+						background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
 					}
 
 						#header > nav ul li a.active {
-							background: #FFD700;
-							color: #000000 !important;
+							background: -webkit-linear-gradient(top, #000000, #000000);
+							-webkit-background-clip: text;
+							-webkit-text-fill-color: transparent;
 						}
 
 					#header > nav ul li:first-child {
@@ -2939,6 +3116,7 @@ input, select, textarea {
 
 	#wrapper {
 		background: linear-gradient(135deg, #0F0F0F 0%, #2d291d 50%, #5f4d35 100%);
+		/* background: linear-gradient(45deg, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%) */
 		/* background: linear-gradient(135deg, #171433, #4b0c33, #6b1515); */
 		/* background: #131311; */
 		/* background-image: linear-gradient(225deg, rgba(114, 97, 147, 0.25) 25%, rgba(227, 123, 124, 0.25) 50%, rgba(255, 228, 180, 0.25)); */
@@ -3199,7 +3377,7 @@ input, select, textarea {
 					}
 
 					#titleBar .toggle:before {
-						background: #FFD700;
+						/* background: Gold; */
 						color: #000000;
 						content: '\f0c9';
 						display: block;
@@ -3211,6 +3389,9 @@ input, select, textarea {
 						top: 0;
 						width: 64px;
 						right: 0;
+						background: -webkit-linear-gradient(top, #8f6B29, #FDE08D, #DF9F28);
+						-webkit-background-clip: text;
+						-webkit-text-fill-color: transparent;
 					}
 
 			body.header-visible #wrapper, body.header-visible #titleBar {
