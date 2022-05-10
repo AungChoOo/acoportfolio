@@ -2860,8 +2860,8 @@ button {
 	right: 0.0625rem;
 	width: 0.625rem;
 	height: 0.625rem;
-	border-top: 0.125rem solid #fff;
-	border-right: 0.125rem solid #fff;
+	border-top: 0.125rem solid rgb(0, 0, 0);
+	border-right: 0.125rem solid rgb(0, 0, 0);
 	transform: rotate(45deg);
    }
    
@@ -2890,7 +2890,7 @@ button {
    }
    
    button:hover .circle .icon.arrow {
-	background: rgb(255, 255, 255);
+	background: rgb(0, 0, 0);
 	transform: translate(1rem, 0);
    }
    
