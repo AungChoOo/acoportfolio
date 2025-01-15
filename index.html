@@ -6,8 +6,7 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"		
 	</head>
 	<body class="is-preload">
 
@@ -34,14 +33,16 @@
 				
 			<footer>
 				<ul class="icons">
-					<li><a href="https://www.facebook.com/aung.cho.oo.258" class="icon brands fa-facebook-f">
-						<span class="label">Facebook</span></a></li>
-					<li><a href="https://www.instagram.com/aung_cho_oo/" class="icon brands fa-instagram">
-						<span class="label">Instagram</span></a></li>
-					<li><a href="https://github.com/AungChoOo" class="icon brands fa-github">
-						<span class="label">Github</span></a></li>
-					<li><a href="https://www.linkedin.com/in/aung-cho-oo-56a6b5182/" class="icon brands fa-linkedin">
-						<span class="label">LinkedIn</span></a></li>
+					<li><a href="https://www.facebook.com/aung.cho.oo.258" class="fa-brands fa-facebook-f">
+						</a></li>
+					<li><a href="https://www.instagram.com/aung_cho_oo/" class="fa-brands fa-instagram">
+						</a></li>
+					<li><a href="https://github.com/AungChoOo" class="fa-brands fa-github">
+						</a></li>
+					<li><a href="https://www.linkedin.com/in/aung-cho-oo-56a6b5182/" class="fa-brands fa-linkedin">
+						</a></li>
+					<li><a href="https://www.upwork.com/freelancers/aungc3?mp_source=share" class="fa-brands fa-upwork">
+						</a></li>
 				</ul>
 
 				<p> 
@@ -66,10 +67,10 @@
 						<header class="major">
 							<h2>About me</h2>
 							<p>Hello There, Aung Cho Oo is here. <br />
-							PCB designer, Electrician, Mechanical Designer, Robotic and AI Enthusiast.<br />
+							PCB designer, Embedded Hardware and Software Engineer, Robotic and AI Enthusiast.<br />
 							If you want to know more about me, you can check my 
 							<a href="https://www.canva.com/design/DAFffrKjRcg/J_LD7NM1or5SsMmRBTCHDg/view?utm_content=DAFffrKjRcg&utm_campaign=designshare&utm_medium=link&utm_source=editor"> 
-							resume</a>. </p>
+							resume</a>.</p>
 						</header>
 					</div>
 				</section>
@@ -78,7 +79,6 @@
 				<section id="two">
 					<div class="container">
 						<h4>Things I Can Do</h4>
-						<p>These are the skills you can expect from me.</p>
 						<ul class="feature-icons">
 							<li class="icon solid fa-c">Embedded C and C++</li>
 							<li class="icon solid fa-microchip">Circuit Design and PCB design</li>
@@ -96,15 +96,55 @@
 				<section id="three">
 					<div class="container">
 						<h4>Portfolio</h4>
-						<p>If you want to know more about my works, these are some of my recent projects.</p>
 						<div class="features">
 							
+							<!-- Multi-Sensor -->
+							<article>
+								<a class="image"><img src="images/Multi-Sensor.png" alt="" /></a>
+								<div class="inner">
+									<h4>Multi-Sensor Modules</h4>
+									<p>Breadboard compatible 13 in 1 multi-sensor module.
+										6dof IMU + 3dof Magnetometer + 4 Gas sensors.
+										Three different IC from Bosch Sensortec including
+										BMI088, BMM150 and BME680. 
+									</p>								
+								</div>
+								<a href= "https://github.com/AungChoOo/Multi-Sensor" >
+									<button class="learn-more">
+										<span class="circle" aria-hidden="true">
+										<span class="icon arrow"></span>
+										</span>
+										<span class="button-text">More Info</span>
+									</button>
+								</a>
+							</article>
+							
+							<!-- Slamware Mobile Robot -->
+							<article>
+								<a class="image"><img src="images/Mobile_robot.jpg" alt="" /></a>
+								<div class="inner">
+									<h4>Slamware Mobile Robot</h4>
+									<p>Autonomous mobile robot which can mapping the environment(indoor),localize its own position and 
+										move feely to desired location. 
+										In this project, we, the team of ROM Robotics, used ROS and Slamware technology.</p>								
+								</div>
+								<a href= "https://github.com/AungChoOo/slamtec-dev-team" >
+									<button class="learn-more">
+										<span class="circle" aria-hidden="true">
+										<span class="icon arrow"></span>
+										</span>
+										<span class="button-text">More Info</span>
+									</button>
+								</a>
+							</article>
+							
+							<!-- ESP32 Display-->
 							<article>
 								<a class="image"><img src="images/Esp32.jpg" alt="" /></a>
 								<div class="inner">
 									<h4>Esp32 Display Module</h4>
 									<p> Custom Esp32 microcontroller with ZIF connector for a display.
-										In board, battery management including battery charger, power path and protection function.
+										On board battery management system including battery charger, power path and protection function.
 									</p>								
 								</div>
 								<!-- <a href= "https://github.com/AungChoOo/slamtec-dev-team" >
@@ -116,17 +156,18 @@
 									</button>
 								</a> -->
 							</article>
-
+							
+							<!-- Class D amp -->
 							<article>
 								<a class="image"><img src="images/Class_D_amp.jpg" alt="" /></a>
 								<div class="inner">
 									<h4>Class D Amplifier</h4>
 									<p> Class D Amplifier for mono speaker.
 										NE5332ADR is used for Preamp and TPA3112D1PWPR for Power amp.
-										The board is made to use with guitar.
+										The board is specifically made for the guitar.
 									</p>								
 								</div>
-								<!-- <a href= "https://github.com/AungChoOo/slamtec-dev-team" >
+								<!-- <a href= "" >
 									<button class="learn-more">
 										<span class="circle" aria-hidden="true">
 										<span class="icon arrow"></span>
@@ -135,7 +176,8 @@
 									</button>
 								</a> -->
 							</article>
-
+							
+							<!-- Shadow Head -->
 							<article>
 								<a class="image"><img src="images/Shadow_head.jpg" alt="" /></a>
 								<div class="inner">
@@ -154,25 +196,8 @@
 									</button>
 								</a>
 							</article>
-
-							<article>
-								<a class="image"><img src="images/Mobile_robot.jpg" alt="" /></a>
-								<div class="inner">
-									<h4>Mobile Robot</h4>
-									<p>Autonomous mobile robot which can mapping the environment(indoor),localize its own position and 
-										move feely to desired location. 
-										In this project, we, the team of ROM Robotics, used ROS and Slamware technology.</p>								
-								</div>
-								<a href= "https://github.com/AungChoOo/slamtec-dev-team" >
-									<button class="learn-more">
-										<span class="circle" aria-hidden="true">
-										<span class="icon arrow"></span>
-										</span>
-										<span class="button-text">More Info</span>
-									</button>
-								</a>
-							</article>
-
+							
+							<!-- Cycloidal Equation Generator -->
 							<article>
 								<a class="image"><img src="images/gear_icon.png" alt="" /></a>
 								<div class="inner">
@@ -190,23 +215,8 @@
 									</button>
 								</a>
 							</article>
-
-							<article>
-								<a class="image"><img src="images/auto_planting.jpg" alt="" /></a>
-								<div class="inner">
-									<h4> Auto Planting </h4>
-									<p>A machine that can perform the tasks of seeding and watering automitically.</p>
-								</div>
-								<a href= "https://github.com/AungChoOo/Auto_planting" >
-									<button class="learn-more">
-										<span class="circle" aria-hidden="true">
-										<span class="icon arrow"></span>
-										</span>
-										<span class="button-text">More Info</span>
-									</button>
-								</a>
-							</article>
-
+							
+							<!-- Robot Arm -->
 							<article>
 								<a class="image"><img src="images/robot_arm.jpg" alt="" /></a>
 								<div class="inner">
@@ -224,6 +234,23 @@
 									</button>
 								</a>
 								
+							</article>
+							
+							<!-- Auto Planting -->
+							<article>
+								<a class="image"><img src="images/auto_planting.jpg" alt="" /></a>
+								<div class="inner">
+									<h4> Auto Planting </h4>
+									<p>A machine that can perform the tasks of seeding and watering automitically.</p>
+								</div>
+								<a href= "https://github.com/AungChoOo/Auto_planting" >
+									<button class="learn-more">
+										<span class="circle" aria-hidden="true">
+										<span class="icon arrow"></span>
+										</span>
+										<span class="button-text">More Info</span>
+									</button>
+								</a>
 							</article>
 						</div>
 					</div>
